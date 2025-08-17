@@ -28,9 +28,9 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - ramips_mt7621
+          - ramips-mt7621
         sdk:
-          - openwrt-24.10
+          - 24.10.2
 
     steps:
       - uses: actions/checkout@v4
